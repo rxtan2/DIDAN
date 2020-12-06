@@ -10,3 +10,7 @@ This repository contains a PyTorch implementation of the paper [Detecting Cross-
          booktitle={Empirical Methods in Natural Language Processing (EMNLP)},
          year={2020} }
     
+# Dependencies
+
+1. Python 3.6
+2. Pytorch version 1.2.0
