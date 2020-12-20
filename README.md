@@ -27,6 +27,9 @@ For each image, we extract 36 region features using a Faster-RCNN model (https:/
 ### Language Features
 To convert the articles and captions into the required input format, please go to https://github.com/nlpyang/PreSumm/blob/master/README.md and carry out steps 3 to 5 of data preparation.
 
+### Named Entities
+We use the SpaCY python library to parse the articles and captions to detect named entities. We store this information as dictionary where the keys are the article names and the values are sets of detected name entities.
+
 # Required Arguments
 
 1. captioning_dataset_path: Path to GoodNews captioning dataset json file
