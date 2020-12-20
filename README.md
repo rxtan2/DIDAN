@@ -14,3 +14,9 @@ This repository contains a PyTorch implementation of the paper [Detecting Cross-
 
 1. Python 3.6
 2. Pytorch version 1.2.0
+
+# Preprocess Data
+
+To convert the articles and captions into the required input format, please go to https://github.com/nlpyang/PreSumm/blob/master/README.md and carry out steps 3 to 5 of data preparation.
+
+# Required Arguments
