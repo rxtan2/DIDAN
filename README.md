@@ -15,8 +15,16 @@ This repository contains a PyTorch implementation of the paper [Detecting Cross-
 1. Python 3.6
 2. Pytorch version 1.2.0
 
+# Download NeuralNews Dataset
+
+Please follow the instructions here (https://cs-people.bu.edu/rxtan/projects/didan/) to download the NeuralNews dataset. In particular, download this file (https://drive.google.com/file/d/1rswGdNNfl4HoP9trslP0RUrcmSbg1_RD/view?usp=sharing) and place it into the data folder.
+
 # Preprocess Data
 
+### Image Features
+For each image, we extract 36 region features using a Faster-RCNN model (https://github.com/peteanderson80/bottom-up-attention) that is pretrained on Visual Genome. The region features for each image is stored separately as a .npy file.
+
+### Language Features
 To convert the articles and captions into the required input format, please go to https://github.com/nlpyang/PreSumm/blob/master/README.md and carry out steps 3 to 5 of data preparation.
 
 # Required Arguments
