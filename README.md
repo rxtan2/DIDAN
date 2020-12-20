@@ -20,3 +20,11 @@ This repository contains a PyTorch implementation of the paper [Detecting Cross-
 To convert the articles and captions into the required input format, please go to https://github.com/nlpyang/PreSumm/blob/master/README.md and carry out steps 3 to 5 of data preparation.
 
 # Required Arguments
+
+1. captioning_dataset_path: Path to GoodNews captioning dataset json file
+2. fake_articles: Path to generated articles
+3. image_representations_dir: Directory which contains the object representations of images
+4. real_articles_dir: Directory which contains the preprocessed Torch text files for real articles
+5. fake_articles_dir: Directory which contains the preprocessed Torch text files for generated articles
+6. real_captions_dir: Directory which contains the preprocessed Torch text files for real captions
+7. ner_dir: Directory which contains a dictionary of named entities for each article and caption
