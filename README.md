@@ -17,7 +17,7 @@ This repository contains a PyTorch implementation of the paper [Detecting Cross-
 
 # Download NeuralNews Dataset
 
-Please follow the instructions here (https://cs-people.bu.edu/rxtan/projects/didan/) to download the NeuralNews dataset. In particular, download this file (https://drive.google.com/file/d/1rswGdNNfl4HoP9trslP0RUrcmSbg1_RD/view?usp=sharing) and place it into the data folder.
+Please follow the instructions here (https://cs-people.bu.edu/rxtan/projects/didan/) to download the NeuralNews dataset. In particular, download this file (https://drive.google.com/file/d/1vD4DtyJOIjRzchPtCQu-KPrUjgTiWSmo/view?usp=drive_link) and place it into the data folder.
 
 # Preprocess Data
 
